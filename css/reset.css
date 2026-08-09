@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; vertical-align: top; box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+p{word-break: keep-all;}
+body{margin: 0 auto; font-family: 'Pretendard' , sans-serif;
+max-width: 1920px; min-width: 320px;}
+img{max-width: 100%; border: 0;}

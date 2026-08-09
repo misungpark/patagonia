@@ -1,0 +1,14 @@
+/* Title */
+.contents_title_small_bold {font-size:18px; font-weight: 700; letter-spacing: -0.8px;}
+.contents_title_medium_semibold {font-size:20px; font-weight: 600; letter-spacing: -1px;}
+.contents_title_medium_bold {font-size:30px; font-weight: 700; letter-spacing: -1.6px;}
+.contents_title_large {font-size:46px; font-weight: 700; letter-spacing: -1.6px;}
+
+/* Article */
+.contents_article_xsmall {font-size:16px; font-weight: 400; letter-spacing: -0.6px;}
+.contents_article_small_medium {font-size:20px; font-weight: 500; letter-spacing: -1px;}
+.contents_article_medium {font-size:30px; font-weight: 700; letter-spacing: -1.4px;}
+.contents_article_large {font-size:34px; font-weight: 700; letter-spacing: -2px;}
+
+/* Button */
+.contents_btn_small {font-size:16px; font-weight: 600; letter-spacing: -0.6px;}
