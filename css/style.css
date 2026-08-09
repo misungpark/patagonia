@@ -243,10 +243,10 @@ transition: all 0.3s ease;}
 
 .sub_category_info { width: 709px; flex-shrink: 0; display: flex; gap: 24px;  justify-content: flex-start; align-items: center;}
 .sub_category_img { width: 302px; flex-shrink: 0; height: 302px; border-radius:   50%; border: 4px solid #fff;}
-.category_img_01 { background: url(../images/sub_category_img.jpg) no-repeat 50% 50% / cover;}
-.category_img_02 { background: url(../images/sub_category_img_02.jpg) no-repeat 50% 50% / cover;}
-.category_img_03 { background: url(../images/sub_category_img_03.jpg) no-repeat 50% 50% / cover;}
-.category_img_04 { background: url(../images/sub_category_img_04.jpg) no-repeat 50% 50% / cover;}
+.category_img_01 { background: url(/images/sub_category_img.jpg) no-repeat 50% 50% / cover;}
+.category_img_02 { background: url(/images/sub_category_img_02.jpg) no-repeat 50% 50% / cover;}
+.category_img_03 { background: url(/images/sub_category_img_03.jpg) no-repeat 50% 50% / cover;}
+.category_img_04 { background: url(/images/sub_category_img_04.jpg) no-repeat 50% 50% / cover;}
 
 .sub_category_text { width: 100%; padding:  0 0 0 40px; border-left: 3px solid #fff; color: #fff; }
 .sub_category_text .contents_title_medium_semibold { line-height: 150%;}
@@ -261,9 +261,9 @@ transition: all 0.3s ease;}
 
 .sub_campaign_img {width: 100%; height: 450px;}
 
-.campaign_img_01 {background: url(../images/sub_campaign_img_01.jpg) no-repeat 50% 50% / cover  ;}
-.campaign_img_02 {background: url(../images/sub_campaign_img_02.jpg) no-repeat 50% 50% / cover  ;}
-.campaign_img_03 {background: url(../images/sub_campaign_img_03.jpg) no-repeat 50% 50% / cover  ;}
+.campaign_img_01 {background: url(/images/sub_campaign_img_01.jpg) no-repeat 50% 50% / cover  ;}
+.campaign_img_02 {background: url(/images/sub_campaign_img_02.jpg) no-repeat 50% 50% / cover  ;}
+.campaign_img_03 {background: url(/images/sub_campaign_img_03.jpg) no-repeat 50% 50% / cover  ;}
 
 .sub_campaign_text_wrap {width: 100%; height: 220px; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: space-between;}
 
