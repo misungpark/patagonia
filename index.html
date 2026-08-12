@@ -10,6 +10,9 @@
     <link rel="stylesheet" as="style" crossorigin
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
@@ -29,18 +32,18 @@
 
                 <nav class="gnb">
                     <ul>
-                        <li><a href="#">Collection</a></li>
-                        <li><a href="#">Men's</a></li>
-                        <li><a href="#">Women's</a></li>
-                        <li><a href="#">Kid's & Baby</a></li>
-                        <li><a href="#">Packs & Gear</a></li>
-                        <li><a href="#">Sports</a></li>
+                        <li><a href="sub.html">Collection</a></li>
+                        <li><a href="sub.html">Men's</a></li>
+                        <li><a href="sub.html">Women's</a></li>
+                        <li><a href="sub.html">Kid's & Baby</a></li>
+                        <li><a href="sub.html">Packs & Gear</a></li>
+                        <li><a href="sub.html">Sports</a></li>
                     </ul>
                 </nav><!-- gnb -->
 
-                <div class="util_menu">
+                <div class="utill_menu">
                     <a href="#" class="search_box">
-                        <img src="images/search_icon.png" alt="search_icon" class="search_icon">
+                        <img src="images/search_icon.png" alt="" class="search_icon">
                         <span class="search_text">Search</span>
                     </a><!-- search -->
 
@@ -49,65 +52,67 @@
                         <li><a href="#"><img src="images/user_icon.png" alt="user"></a></li>
                         <li><a href="#"><img src="images/basket_icon.png" alt="basket"></a></li>
                         <li><a href="#"><img src="images/sidemenu_icon.png" alt="sidemenu"></a></li>
-                    </ul><!-- util_icon -->
-                </div><!-- util menu -->
+                    </ul><!-- utill_icon -->
+                </div><!-- utill menu -->
             </header><!-- 헤더 -->
 
             <video src="images/main_video.mp4" class="main_video" muted autoplay playsinline loop></video><!-- 메인영상 -->
         </div>
     </section><!-- main_hero 끝 -->
 
-    <section class="section02"><!-- new arrival 시작 -->
+    <section class="section02 reveal"><!-- new arrival 시작 -->
         <div class="newarrival">
             <div class="newarrival_top"><!-- newarrival_top 시작-->
                 <h2 class="contents_title_large">New Arrival</h2>
-                <p class="contents_title_medium_semibold">파타고니아 신상품은 '지구를 위한 진정성'을 담아 뛰어난 기능성과 친환경 소재를<br class="pc_br"> 결합한 것이
-                    특징입니다. 일상과 아웃도어를 아우르는 다양한 컬렉션을 지금 바로<br class="pc_br"> 만나보세요.</p>
+                <p class="contents_title_medium_semibold">파타고니아 신상품은 '지구를 위한 진정성'을 담아 뛰어난 기능성과 친환경 소재를<br> 결합한 것이
+                    특징입니다. 일상과 아웃도어를 아우르는 다양한 컬렉션을 지금 바로<br> 만나보세요.</p>
             </div><!-- newarrival_top -->
 
             <div class="newarrival_btm"><!-- newarrival_btm 시작 -->
-                <div class="newarrival_btm_wrap"><!-- newarrival_btm_wrap 시작 -->
-                    <div class="newarrival_list img01">
-                        <div class="newarrival_list_info">
-                            <p class="contents_article_xsmall">Men's R1® Air Crew</p>
-                            <p class="contents_title_small_bold">멘즈 R1 에어 크루</p>
-                        </div>
-                      
-                        <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
-                        
-                    </div><!-- newarrival_list -->
+                <div class="newarrival_btm_wrap swiper"><!-- newarrival_btm_wrap 시작 (Swiper 적용) -->
+                    <div class="swiper-wrapper">
+                        <div class="newarrival_list img01 swiper-slide">
+                            <div class="newarrival_list_info">
+                                <p class="contents_article_xsmall">Men's R1® Air Crew</p>
+                                <p class="contents_title_small_bold">멘즈 R1 에어 크루</p>
+                            </div>
+                          
+                            <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
+                            
+                        </div><!-- newarrival_list -->
 
-                    <div class="newarrival_list img02">
-                        <div class="newarrival_list_info">
-                            <p class="contents_article_xsmall">Women's R1® Air Crew</p>
-                            <p class="contents_title_small_bold">우먼즈 R1 에어 크루</p>
-                        </div>
-                        <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
+                        <div class="newarrival_list img02 swiper-slide">
+                            <div class="newarrival_list_info">
+                                <p class="contents_article_xsmall">Women's R1® Air Crew</p>
+                                <p class="contents_title_small_bold">우먼즈 R1 에어 크루</p>
+                            </div>
+                            <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
 
-                    </div><!-- newarrival_list -->
+                        </div><!-- newarrival_list -->
 
-                    <div class="newarrival_list img03">
-                        <div class="newarrival_list_info">
-                            <p class="contents_article_xsmall">Men's Granite Crest Rain Jacket</p>
-                            <p class="contents_title_small_bold">멘즈 그래니트 크레스트 레인 재킷</p>
-                        </div>
-                        <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
-                    </div><!-- newarrival_list -->
+                        <div class="newarrival_list img03 swiper-slide">
+                            <div class="newarrival_list_info">
+                                <p class="contents_article_xsmall">Men's Granite Crest Rain Jacket</p>
+                                <p class="contents_title_small_bold">멘즈 그래니트 크레스트 레인 재킷</p>
+                            </div>
+                            <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
+                        </div><!-- newarrival_list -->
 
-                    <div class="newarrival_list img04">
-                        <div class="newarrival_list_info">
-                            <p class="contents_article_xsmall">Women's R1® Air Jacket</p>
-                            <p class="contents_title_small_bold">우먼즈 R1 에어 재킷</p>
-                        </div>
-                        <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
-                    </div><!-- newarrival_list -->
-
+                        <div class="newarrival_list img04 swiper-slide">
+                            <div class="newarrival_list_info">
+                                <p class="contents_article_xsmall">Women's R1® Air Jacket</p>
+                                <p class="contents_title_small_bold">우먼즈 R1 에어 재킷</p>
+                            </div>
+                            <a href="#" class="newarrival_list_btn contents_btn_small">장바구니</a><!-- newarrival_list_btn -->
+                        </div><!-- newarrival_list -->
+                    </div>
                 </div><!-- newarrival_btm_wrap 끝 -->
+                
                 <div class="indicator">
-                   <a href="#" class="icon_arrow_left">
+                   <a href="#" class="icon_arrow_left btn_prev">
                         <img src="images/slide_arrow_left.png" alt="icon_arrow_left">
                     </a>
-                    <a href="#" class="icon_arrow_right">
+                    <a href="#" class="icon_arrow_right btn_next">
                         <img src="images/slide_arrow_right.png" alt="icon_arrow_right">
                     </a>
                 </div><!-- indicator -->
@@ -116,14 +121,14 @@
         </div>
     </section><!-- new arrival 끝 -->
 
-    <section class="section03"><!-- promotion 시작 -->
+    <section class="section03 reveal"><!-- promotion 시작 -->
         <div class="promotion">
             <div class="promotion_top">
                 <h2 class="contents_title_large">Capilene® Cool Tech Tees</h2>
                 <div class="promotion_info">
 
                     <p class="contents_article_small_medium">
-                        타는 듯한 더위 속에서도, 강도 높은 움직임을 멈출 수 없을 때. 캐필린® 쿨 테크 티는 땀을 쏟아내는 고강도 활동을 위해<br class="pc_br"> 설계된 퍼포먼스 티셔츠 컬렉션입니다. 땀을 빠르게 흡수하고 건조하며, 냄새 억제 기능까지 갖춘  35–100% 리사이클<br class="pc_br"> 소재를 사용했습니다. 하루 종일 이어지는 스포츠 활동에서도 쾌적함을 유지하는 탁월한 통기성이 특징입니다.</p>
+                        타는 듯한 더위 속에서도, 강도 높은 움직임을 멈출 수 없을 때. 캐필린® 쿨 테크 티는 땀을 쏟아내는 고강도 활동을 위해<br> 설계된 퍼포먼스 티셔츠 컬렉션입니다. 땀을 빠르게 흡수하고 건조하며, 냄새 억제 기능까지 갖춘  35–100% 리사이클<br> 소재를 사용했습니다. 하루 종일 이어지는 스포츠 활동에서도 쾌적함을 유지하는 탁월한 통기성이 특징입니다.</p>
                     
                     <a href="#" class="promotion_btn contents_btn_small">자세히 보기</a><!-- promotion_btn -->
                     
@@ -131,16 +136,14 @@
                 
             </div><!-- promotion_top -->
 
-
             <div class="promotion_btm">
                 <div class="promotion_img_01"></div>
                 <div class="promotion_img_02"></div>
-              
             </div><!-- promotion_btm -->
         </div>
     </section><!-- promotion 끝 -->
 
-    <section class="section04"><!-- campaign 시작-->
+    <section class="section04 reveal"><!-- campaign 시작-->
         <div class="campaign">
             <div class="campaign_info">
                     
@@ -148,16 +151,14 @@
                         <p class="contents_article_medium">We’re in business to save our home planet.</p><!-- contents_article_medium -->
                         
                         <p class="contents_article_large">
-                            이제 우리가 기업으로서 소비 중심주의에 대한 문제를 제기하고 이끌어<br class="pc_br">
-                            나가야 할 때입니다.함께 해요 캠페인(공동 자원 재활용 운동,<br class="pc_br">
-                            Common Threads Initiative)’의 가장 어려우면서도 중요한 요소는<br class="pc_br">
-                            우리의 환경 발자국을 줄이기 위해서는 모든 사람이 소비를 줄여야 한다<br class="pc_br">
+                            이제 우리가 기업으로서 소비 중심주의에 대한 문제를 제기하고 이끌어<br>
+                            나가야 할 때입니다.함께 해요 캠페인(공동 자원 재활용 운동,<br>
+                            Common Threads Initiative)’의 가장 어려우면서도 중요한 요소는<br>
+                            우리의 환경 발자국을 줄이기 위해서는 모든 사람이 소비를 줄여야 한다<br>
                             는 것입니다. 기업은 더 좋은 품질의 물건을 더 적게 만들어야 합니다. </p><!-- contents_article_large -->
                     </div><!-- campaign_text -->
 
-                    
                     <a href="#" class="campaign_btn contents_btn_small">캠페인 보러가기</a><!-- campaign_btn -->
-                    
 
                 </div><!-- campaign_info -->
                 <h2 class="campaign_title">DON'T<br>BUY<br>THIS<br>JACKET</h2><!-- campaign_title -->
@@ -166,14 +167,13 @@
 
     </section><!-- campaign 끝-->
 
-    <section class="section05"><!-- film 시작 -->
+    <section class="section05 reveal"><!-- film 시작 -->
         <div class="film">
             <video src="images/film_video.mp4" class="film_video" muted autoplay playsinline loop></video>
         </div>
-        
     </section><!-- film 끝 -->
     
-    <section class="section06"><!-- magazine 시작 -->
+    <section class="section06 reveal"><!-- magazine 시작 -->
         <div class="magazine">
 
             <h2 class="contents_title_large">Magazine</h2><!-- contents_title_large -->
@@ -188,10 +188,10 @@
                             </div><!-- magazine_box_title -->
                             <div class="magazine_box_article">
                                 <p class="contents_article_small_medium">
-                                    파타고니아에서 여성 클라이머들을 위한 행사, ‘우먼즈 프리 클라<br class="pc_br">
-                                    임 데이’를 열었다. 이수항, 이지은 클라이머가 진행을 맡았다. 트<br class="pc_br">
-                                    래드 등반 경험이 있지만 선등을 해본 적 없는 여성 클라이머 15<br class="pc_br">
-                                    명을 모집했다. 모집은 순식간에 마감되었다. 이들은 북한산 백운<br class="pc_br">
+                                    파타고니아에서 여성 클라이머들을 위한 행사, ‘우먼즈 프리 클라<br>
+                                    임 데이’를 열었다. 이수항, 이지은 클라이머가 진행을 맡았다. 트<br>
+                                    래드 등반 경험이 있지만 선등을 해본 적 없는 여성 클라이머 15<br>
+                                    명을 모집했다. 모집은 순식간에 마감되었다. 이들은 북한산 백운<br>
                                     대 크랙에 모여 첫 선등의 짜릿함을 함께 맛보았다.</p>
                                 <div class="magazine_btn">
                                     <a href="#" class="contents_btn_small">READ MORE</a>
@@ -208,9 +208,9 @@
                             </div><!-- magazine_box_title -->
                             <div class="magazine_box_article">
                                 <p class="contents_article_small_medium">
-                                    우리는 모두 다른 속도와 이유로, 인생이라는 길 위를 달려갑니<br class="pc_br">
-                                    다. 누군가는 건강을 위해서, 누군가는 자신의 한계를 경험하기<br class="pc_br">
-                                    위해서 그리고 누군가는 단순히 달리는 행위가 좋아서 달린다고<br class="pc_br">
+                                    우리는 모두 다른 속도와 이유로, 인생이라는 길 위를 달려갑니<br>
+                                    다. 누군가는 건강을 위해서, 누군가는 자신의 한계를 경험하기<br>
+                                    위해서 그리고 누군가는 단순히 달리는 행위가 좋아서 달린다고<br>
                                     말합니다.
                                 </p>
                                 <div class="magazine_btn">
@@ -232,10 +232,10 @@
                             </div><!-- magazine_box_title -->
                             <div class="magazine_box_article">
                                 <p class="contents_article_small_medium">
-                                    케이티 램(Katie Lamb)은 세계에서 강력한 볼더러 중 한 명으로<br class="pc_br">
-                                    손꼽히지만, 그녀의 틱 리스트를 보면 난이도나 외부의 시선에 집<br class="pc_br">
-                                    중하고 있지 않음을 알 수 있습니다. 오히려 그녀는 온전히 집중<br class="pc_br">
-                                    할 수 있는 그리고 조용히 몰두하며 해결해 나갈 수 있는 바위를<br class="pc_br">
+                                    케이티 램(Katie Lamb)은 세계에서 강력한 볼더러 중 한 명으로<br>
+                                    손꼽히지만, 그녀의 틱 리스트를 보면 난이도나 외부의 시선에 집<br>
+                                    중하고 있지 않음을 알 수 있습니다. 오히려 그녀는 온전히 집중<br>
+                                    할 수 있는 그리고 조용히 몰두하며 해결해 나갈 수 있는 바위를<br>
                                     끊임없이 찾아 나섭니다.
                                 </p>
                                 <div class="magazine_btn">
@@ -253,9 +253,9 @@
                             </div><!-- magazine_box_title -->
                             <div class="magazine_box_article">
                                 <p class="contents_article_small_medium">
-                                    지난 5월, 생존에 필요한 모든 장비를 파타고니아 블랙홀 더플백<br class="pc_br">
-                                    에 담아 폭풍을 뚫고 인천 장봉도로 향했던 그날, 모든 게 불확실<br class="pc_br">
-                                    했지만 우리는 함께였기에 파타고니아 블랙홀 챌린지를 무사히<br class="pc_br">
+                                    지난 5월, 생존에 필요한 모든 장비를 파타고니아 블랙홀 더플백<br>
+                                    에 담아 폭풍을 뚫고 인천 장봉도로 향했던 그날, 모든 게 불확실<br>
+                                    했지만 우리는 함께였기에 파타고니아 블랙홀 챌린지를 무사히<br>
                                     끝내 해낼 수 있었습니다.
                                 </p>
                                 <div class="magazine_btn">
@@ -273,7 +273,7 @@
         </div>
     </section><!-- magazine 끝 -->
 
-    <section class="section07"><!-- membership 시작 -->
+    <section class="section07 reveal"><!-- membership 시작 -->
         <div class="membership">
             <div class="membership_img"></div><!-- membership_img -->
             
@@ -281,8 +281,8 @@
                 <div class="membership_info_text">
                     <h2 class="contents_title_medium_bold">파타고니아코리아 멤버십 가입하기</h2><!-- contents_title_medium_bold -->
                     <p class="contents_article_small_medium">
-                        ㈜파타고니아코리아의 회원으로 가입하시면 다양한 혜택을 누리<br class="pc_br">
-                        실 수 있습니다. 회원가입시 본인 인증 후 매장 가입 내역 및 구매<br class="pc_br">
+                        ㈜파타고니아코리아의 회원으로 가입하시면 다양한 혜택을 누리<br>
+                        실 수 있습니다. 회원가입시 본인 인증 후 매장 가입 내역 및 구매<br>
                         내역을 자동으로 통합하여 업데이트 합니다.</p><!-- contents_article_small_medium -->
                 </div><!-- membership_info_text -->
                 
@@ -297,6 +297,7 @@
             <div class="logo"></div><!-- logo -->
             <p class="contents_title_medium_semibold">사회와 환경에 책임을 다합니다.</p><!-- contents_title_medium_semibold -->
             <div class="footer_info">
+                <div class="footer_img"></div><!-- footer_img -->
                 <div class="footer_info_text_wrap">
                     <div class="footer_info_top">
                         <div class="footer_info_address">
@@ -311,7 +312,7 @@
 
                         <div class="footer_info_email">
                             <p class="contents_title_medium_semibold">E-mail</p>
-                            <p class="contents_article_xsmall">patagoniakorea@patagonia.kr</p>
+                            <p class="contents_article_xsmall">patagoniakorea@patgonia.kr</p>
                         </div><!-- footer_info_email -->
 
                     </div><!-- footer_info_top -->
@@ -328,7 +329,9 @@
         </div>
     </section><!-- footer 끝 -->
 
-    <!-- JS Interaction -->
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
     <script src="js/main.js"></script>
 </body>
 

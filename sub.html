@@ -3,79 +3,101 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Patagonia - Sub</title>
+        <title>Patagonia - Sub Page</title>
 
         <!-- Font -->
         <link rel="stylesheet" as="style" crossorigin
             href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
         <!-- css -->
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/sub.css">
+        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
 
     <body>
-        <header class="sub_header">
+        <section class="sub_header"><!-- sub_heaer 시작 -->
+            <header><!-- sub_heaer 시작-->
                 <h1 class="logo">
                     <a href="index.html">
                         <img src="images/logo.png" alt="파타고니아 로고">
                     </a>
                 </h1><!-- logo -->
-
                 <nav class="gnb">
-                    <ul>
-                        <li><a href="#">Collection</a></li>
-                        <li><a href="#">Men's</a></li>
-                        <li><a href="#">Women's</a></li>
-                        <li><a href="#">Kid's & Baby</a></li>
-                        <li><a href="#">Packs & Gear</a></li>
-                        <li><a href="#">Sports</a></li>
-                    </ul>
-                </nav><!-- gnb -->
+                        <ul>
+                            <li><a href="sub.html">Collection</a></li>
+                            <li><a href="sub.html">Men's</a></li>
+                            <li><a href="sub.html">Women's</a></li>
+                            <li><a href="sub.html">Kid's & Baby</a></li>
+                            <li><a href="sub.html">Packs & Gear</a></li>
+                            <li><a href="sub.html">Sports</a></li>
+                        </ul>
+                    </nav><!-- gnb -->    
 
-                <div class="util_menu">
-                    <a href="#" class="search_box">
-                        <img src="images/search_icon.png" alt="search_icon" class="search_icon">
-                        <span class="search_text">Search</span>
-                    </a><!-- search -->
+            <div class="utill_menu">
+                        <a href="#" class="search_box">
+                            <img src="images/search_icon.png" alt="" class="search_icon">
+                            <span class="search_text">Search</span>
+                        </a><!-- search -->
 
-                    <ul>
-                        <li><a href="#"><img src="images/heart_icon.png" alt="heart"></a></li>
-                        <li><a href="#"><img src="images/user_icon.png" alt="user"></a></li>
-                        <li><a href="#"><img src="images/basket_icon.png" alt="basket"></a></li>
-                        <li><a href="#"><img src="images/sidemenu_icon.png" alt="sidemenu"></a></li>
-                    </ul><!-- util_icon -->
-                </div><!-- util menu -->
-            </header><!-- 헤더 -->
+                        <ul>
+                            <li><a href="#"><img src="images/heart_icon.png" alt="heart"></a></li>
+                            <li><a href="#"><img src="images/user_icon.png" alt="user"></a></li>
+                            <li><a href="#"><img src="images/basket_icon.png" alt="basket"></a></li>
+                            <li><a href="#"><img src="images/sidemenu_icon.png" alt="sidemenu"></a></li>
+                        </ul><!-- utill_icon -->
+                    </div><!-- utill menu -->     
 
-        <section class="sub_main"><!-- sub_main 시작 -->
+                </header>
+        </section><!-- sub_heaer 끝 -->
+
+        <section class="sub_main reveal"><!-- sub_main 시작 -->
             <div class="sub_main_text">
-                <h2 class="contents_title_large">우리가 만드는 모든 것이 지구에<br class="pc_br">영향을 미칩니다.</h2><!-- contents_title_large -->
+                <h2 class="contents_title_large">우리가 만드는 모든 것이 지구에<br>영향을 미칩니다.</h2><!-- contents_title_large -->
                 <p class="contents_article_small_medium">
-                    환경을 생각하는 소비자는 의류 기업에게 환경을 해치는 활동을 멈추라고 요구합니다. <br class="pc_br">
+                    환경을 생각하는 소비자는 의류 기업에게 환경을 해치는 활동을 멈추라고 요구합니다. <br>
                     환경에 도움이 되는 활동을 요구하세요. 지금 사는 옷이 의류 산업의 미래를 결정합니다.</p><!-- contents_article_small_medium -->
 
             </div><!-- sub_main_text -->
 
             <div class="main_img_wrap">
+                <div class="main_img_top">
+                    <div class="main_img img_01"></div>
+                    <div class="main_img img_02"></div>
+                    <div class="main_img img_03"></div>
+                    <div class="main_img img_04"></div>
+                </div><!-- main_img_top -->
+                <div class="main_img_btm">
+                    <div class="main_img img_05"></div>
+                    <div class="main_img img_06"></div>
+                    <div class="main_img img_07"></div>
+                    <div class="main_img img_08"></div>
+                </div><!-- main_img_btm -->
             </div><!-- main_img_wrap -->
 
         </section><!-- sub_main 끝 -->
 
-        <section class="sub_film"><!-- sub_film 시작 -->
+        <section class="sub_film reveal"><!-- sub_film 시작 -->
             <video src="images/sub_video.mp4" class="film_video" muted autoplay playsinline loop></video><!-- 서브영상 -->
 
             <div class="sub_film_btn_wrap">
-                <a href="#" class="btn_left sub_film_btn contents_btn_small">Watch Film <img src="images/sub_film_arrow.png" alt=""></a>
-                <a href="#" class="btn_right sub_film_btn contents_btn_small">더 알아보기</a>
-            </div><!-- sub_film_btn_wrap -->
+                <div class=" btn_left">
+                    <a href="#" class="sub_film_btn contents_btn_small">Watch Film</a>
+                    <a href="#" class="sub_film_arrow"></a>
+                </div><!-- btn_left -->
 
+                <div class="btn_right">
+                    <a href="#" class="sub_film_btn contents_btn_small">더 알아보기</a>
+                </div><!-- btn_right -->
+            </div><!-- sub_film_btn_wrap -->
 
         </section><!-- sub_film 끝 -->
 
-        <section class="sub_program"><!-- sub_program 시작 -->
+        <section class="sub_program reveal"><!-- sub_program 시작 -->
 
             <div class="sub_program_img"></div><!-- sub_program_img -->
 
@@ -84,7 +106,7 @@
                     <div class="sub_program_text">
                         <p class="contents_title_medium_bold">Materials & Environmental</p><!-- contents_title_medium_bold -->
                         <p class="contents_article_small_medium">
-                            파타고니아는 여러 가지 소재와 제품을 만들 때 참고할 수 있도록<br class="pc_br">
+                            파타고니아는 여러 가지 소재와 제품을 만들 때 참고할 수 있도록<br>
                             환경과 동물 복지를 위한 책임 프로그램을 만들었습니다.</p><!-- contents_article_small_medium -->
                     </div><!-- sub_program_text -->
                     <a href="#" class="sub_program_arrow"></a>
@@ -94,7 +116,7 @@
                     <div class="sub_program_text">
                         <p class="contents_title_medium_bold">Corporate Social Responsibility</p><!-- contents_title_medium_bold -->
                         <p class="contents_article_small_medium">
-                            파타고니아는 파타고니아의 제품이 안전하고, 공정하고, 합법적이고, 인간적인<br class="pc_br">
+                            파타고니아는 파타고니아의 제품이 안전하고, 공정하고, 합법적이고, 인간적인<br>
                             근무 환경에서 생산될 수 있도록 하기 위해 다양한 노력을 기울이고 있습니다.</p><!-- contents_article_small_medium -->
                     </div><!-- sub_program_text -->
                     <a href="#" class="sub_program_arrow"></a>
@@ -104,7 +126,7 @@
                     <div class="sub_program_text">
                         <p class="contents_title_medium_bold">Production facility</p><!-- contents_title_medium_bold -->
                         <p class="contents_article_small_medium">
-                            파타고니아는 공급망 전체에 걸쳐 파타고니아가 소유하고 있는 시설과 공급업체에 대한<br class="pc_br">
+                            파타고니아는 공급망 전체에 걸쳐 파타고니아가 소유하고 있는 시설과 공급업체에 대한<br>
                             정보를 공개합니다. 소비자들은 자신이 구매하는 옷이 어디서 어떻게 만들어지는지 알 수 있습니다.</p><!-- contents_article_small_medium -->
                     </div><!-- sub_program_text -->
                     <a href="#" class="sub_program_arrow"></a>
@@ -114,7 +136,7 @@
 
         </section><!-- sub_program 끝 -->
 
-        <section class="sub_category"><!-- sub_category 시작 -->
+        <section class="sub_category reveal"><!-- sub_category 시작 -->
             
             <div class="sub_category_top">
                 <h2 class="contents_title_large">이번 시즌에 이룬 성과</h2>
@@ -125,50 +147,52 @@
                 
             </div><!-- sub_category_top -->
 
-            <div class="sub_category_btm">
-                <div class="sub_category_info">
-                    <div class="sub_category_img category_img_01"></div><!-- sub_category_img -->
-                    <div class="sub_category_text">
-                        <p class="contents_title_medium_semibold">
-                            2022년 기준, 의류 제조 공장  34%는 평균적<br class="pc_br">
-                            으로 노동자들에게 생활임금을 지급하고 있습니<br class="pc_br">
-                            다.</p>
-                    </div>
-                </div><!-- sub_category_info -->
+            <div class="sub_category_btm swiper"><!-- sub_category_btm 시작 (Swiper 적용) -->
+                <div class="swiper-wrapper">
+                    <div class="sub_category_info swiper-slide">
+                        <div class="sub_category_img category_img_01"></div><!-- sub_category_img -->
+                        <div class="sub_category_text">
+                            <p class="contents_title_medium_semibold">
+                                2022년 기준, 의류 제조 공장  34%는 평균적<br>
+                                으로 노동자들에게 생활임금을 지급하고 있습니<br>
+                                다.</p>
+                        </div>
+                    </div><!-- sub_category_info -->
 
-                <div class="sub_category_info">
-                    <div class="sub_category_img category_img_02"></div><!-- sub_category_img -->
-                    <div class="sub_category_text">
-                        <p class="contents_title_medium_semibold">
-                            2022년 5월에서 2023년 5월까지 네바다주리<br class="pc_br">
-                            노에 위치한 수선 센터에서 83,794벌의 의류를<br class="pc_br">
-                            수선하였습니다.</p>
-                    </div>
-                </div><!-- sub_category_info -->
+                    <div class="sub_category_info swiper-slide">
+                        <div class="sub_category_img category_img_02"></div><!-- sub_category_img -->
+                        <div class="sub_category_text">
+                            <p class="contents_title_medium_semibold">
+                                2022년 5월에서 2023년 5월까지 네바다주리<br>
+                                노에 위치한 수선 센터에서 83,794벌의 의류를<br>
+                                수선하였습니다.</p>
+                        </div>
+                    </div><!-- sub_category_info -->
 
-                <div class="sub_category_info">
-                    <div class="sub_category_img category_img_03"></div><!-- sub_category_img -->
-                    <div class="sub_category_text">
-                        <p class="contents_title_medium_semibold">
-                            파타고니아에서 사용하는 버진 다운의 100%가<br class="pc_br">
-                            사육 농장부터 최종 섬유 가공 시설까지 추적이<br class="pc_br">
-                            가능합니다.</p>
-                    </div>
-                </div><!-- sub_category_info -->
+                    <div class="sub_category_info swiper-slide">
+                        <div class="sub_category_img category_img_03"></div><!-- sub_category_img -->
+                        <div class="sub_category_text">
+                            <p class="contents_title_medium_semibold">
+                                파타고니아에서 사용하는 버진 다운의 100%가<br>
+                                사육 농장부터 최종 섬유 가공 시설까지 추적이<br>
+                                가능합니다.</p>
+                        </div>
+                    </div><!-- sub_category_info -->
 
-                <div class="sub_category_info">
-                    <div class="sub_category_img category_img_04"></div><!-- sub_category_img -->
-                    <div class="sub_category_text">
-                        <p class="contents_title_medium_semibold">
-                           파타고니아 의류에 사용된 버진 코튼(virgin<br class="pc_br">
-                           cotton)은 100% 유기농으로 재배되었습니다.</p>
-                    </div>
-                </div><!-- sub_category_info -->
+                    <div class="sub_category_info swiper-slide">
+                        <div class="sub_category_img category_img_04"></div><!-- sub_category_img -->
+                        <div class="sub_category_text">
+                            <p class="contents_title_medium_semibold">
+                               파타고니아 의류에 사용된 버진 코튼(virgin<br>
+                               cotton)은 100% 유기농으로 재배되었습니다.</p>
+                        </div>
+                    </div><!-- sub_category_info -->
+                </div>
             </div><!-- sub_category_btm -->
 
         </section><!-- sub_category 끝 -->
 
-        <section class="sub_campaign"><!-- sub_campaign 시작 -->
+        <section class="sub_campaign reveal"><!-- sub_campaign 시작 -->
              <h2 class="contents_title_large">Campaign</h2><!-- contents_title_large -->
 
             <div class="sub_campaign_info">
@@ -179,7 +203,7 @@
                         <div class="sub_campaign_text">
                             <p class="contents_title_medium_bold">왜 재생 유기농인가?</p>
                             <p class="contents_article_small_medium">
-                                파타고니아는 토양의 건강과 온실가스 배출을 줄이는<br class="pc_br">
+                                파타고니아는 토양의 건강과 온실가스 배출을 줄이는<br>
                                 재생 유기농 농업에 투자합니다.
                             </p>
                         </div><!-- sub_campaign_text -->
@@ -196,8 +220,8 @@
                         <div class="sub_campaign_text">
                             <p class="contents_title_medium_bold">왜 재활용인가?</p>
                             <p class="contents_article_small_medium">
-                                버진 소재를 추출하고 처리하는 것은 기후 위기를 가속화합니<br class="pc_br">
-                                다. 파타고니아는 100% 재사용 및 재활용 원료를 목표로 하고<br class="pc_br">
+                                버진 소재를 추출하고 처리하는 것은 기후 위기를 가속화합니<br>
+                                다. 파타고니아는 100% 재사용 및 재활용 원료를 목표로 하고<br>
                                 있습니다.
                             </p>
                         </div><!-- sub_campaign_text -->
@@ -214,7 +238,7 @@
                         <div class="sub_campaign_text">
                             <p class="contents_title_medium_bold">공정무역</p>
                             <p class="contents_article_small_medium">
-                                공정 무역 운동에 동참하는 것은 생활 임금을 보장하기 위한<br class="pc_br">
+                                공정 무역 운동에 동참하는 시선은 생활 임금을 보장하기 위한<br>
                                 첫 단계입니다.
                             </p>
                         </div><!-- sub_campaign_text -->
@@ -226,10 +250,10 @@
             </div><!-- sub_campaign_info -->
         </section><!-- sub_campaign 끝 -->
 
-        <section class="sub_info"><!-- sub_info 시작 -->
+        <section class="sub_info reveal"><!-- sub_info 시작 -->
             <h2 class="contents_title_large">
-                Our business operations<br class="pc_br">
-                are the cause of the<br class="pc_br">
+                Our business operations<br>
+                are the cause of the<br>
                 climate crisis.
             </h2><!-- contents_title_large -->
 
@@ -237,7 +261,7 @@
                 <div class="sub_info_text">
                     <p class="contents_title_large">우리의 비즈니스가 기후 위기의 원인입니다</p><!-- contents_title_large -->
                     <p class="contents_article_small_medium">
-                        파타고니아는 탄소 배출량을 근본적으로 줄이기 위해 제품 제조 방식을 혁신하고 있습니다. <br class="pc_br">
+                        파타고니아는 탄소 배출량을 근본적으로 줄이기 위해 제품 제조 방식을 혁신하고 있습니다. <br>
                         기후 변화에 대한 우리의 대답은 시스템 변화입니다.
                     </p><!-- contents_article_small_medium -->
                 </div><!-- sub_info_text -->
@@ -246,11 +270,11 @@
 
         </section><!-- sub_info 끝 -->
 
-        <section class="section08"><!-- footer 시작-->
-        <div class="footer">
+        <section class="footer"><!-- footer 시작-->
             <div class="logo"></div><!-- logo -->
             <p class="contents_title_medium_semibold">사회와 환경에 책임을 다합니다.</p><!-- contents_title_medium_semibold -->
             <div class="footer_info">
+                <div class="footer_img"></div><!-- footer_img -->
                 <div class="footer_info_text_wrap">
                     <div class="footer_info_top">
                         <div class="footer_info_address">
@@ -265,7 +289,7 @@
 
                         <div class="footer_info_email">
                             <p class="contents_title_medium_semibold">E-mail</p>
-                            <p class="contents_article_xsmall">patagoniakorea@patagonia.kr</p>
+                            <p class="contents_article_xsmall">patagoniakorea@patgonia.kr</p>
                         </div><!-- footer_info_email -->
 
                     </div><!-- footer_info_top -->
@@ -279,10 +303,11 @@
                     </div><!-- footer_info_btm -->
                 </div><!-- footer_info_wrap -->
             </div><!-- footer_info -->
-        </div>
     </section><!-- footer 끝 -->
 
-    <!-- JS Interaction -->
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
     <script src="js/main.js"></script>
     </body>
 </html>
