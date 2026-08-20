@@ -75,7 +75,7 @@ header{
 .promotion_info {display: flex; flex-wrap: wrap; flex-direction: column; gap: clamp(20px, 3.5vw, 44px); max-width: 100%;}
 .promotion_info .contents_article_small_medium { line-height: 180%;}
 
-.promotion_btn {width: clamp(140px, 15vw, 178px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; background: #f37b3c; color: #fff;
+.promotion_btn {width: clamp(140px, 15vw, 178px); height: clamp(40px, 4vw, 52px);  background: #f37b3c; color: #fff;
 border-radius: 26px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
 
 .promotion_btm {width: 100%; display: flex; flex-wrap: wrap; justify-content: flex-end; padding-left: clamp(20px, 5vw, 48px); gap: clamp(10px, 2vw, 20px);}
@@ -95,13 +95,13 @@ border-radius: 26px; display: flex; flex-wrap: wrap; justify-content: center; al
 .campaign_text .contents_article_medium { color: #FA9A13;}
 .campaign_text .contents_article_large { line-height: 150%; color: #ffffff;}
 
-.campaign_btn { width: clamp(160px, 16vw, 204px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; border-radius: 26px; background: #ffffff;
+.campaign_btn { width: clamp(160px, 16vw, 204px); height: clamp(40px, 4vw, 52px);  border-radius: 26px; background: #ffffff;
   display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
   transition: all 0.3s ease; }
 
 .campaign_btn:hover { background-color: #000; color: #fff;}
 
-.campaign_title {font-size: clamp(60px, 8vw, 120px); font-weight: 900; line-height: 80%; letter-spacing: -5px; color: #ffffff;}
+.campaign_title {font-size: clamp(60px, 8vw, 120px); font-weight: 900; line-height: 80%; letter-spacing: clamp(-6px, -0.4vw, -2px); color: #ffffff;}
 
 /* Section05 */
 .film { width: 100%; }
@@ -150,7 +150,7 @@ border-radius: 26px; display: flex; flex-wrap: wrap; justify-content: center; al
 .membership_info_text { width: 100%; display: flex; flex-wrap: wrap; gap: clamp(12px, 2vw, 24px);}
 .membership_info_text .contents_article_small_medium {line-height: 150%;}
 
-.membership_btn { width: clamp(120px, 12vw, 162px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; border-radius: 26px; background: #005B9C; color: #fff;
+.membership_btn { width: clamp(120px, 12vw, 162px); height: clamp(40px, 4vw, 52px); border-radius: 26px; background: #005B9C; color: #fff;
 transition: all 0.3s ease; display: flex; justify-content: center; align-items: center;}
 
 .membership_btn:hover { background-color: #000; color: #fff;}

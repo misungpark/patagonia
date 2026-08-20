@@ -28,11 +28,11 @@
 /* sub_film */
 .sub_film { width: 100%; position: relative;}
 .sub_film_btn_wrap { position: absolute; left: clamp(20px, 10vw, 160px); bottom: clamp(40px, 8vw, 120px); display: flex; flex-wrap: wrap; gap: 16px;}
-.btn_left { width: clamp(160px, 15vw, 209px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; border-radius: 26px; background: #F37B3C; color: #fff; 
+.btn_left { width: clamp(160px, 15vw, 209px); height: clamp(40px, 4vw, 52px);  border-radius: 26px; background: #F37B3C; color: #fff; 
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; transition: all 0.3s ease;}
 .sub_film_arrow {width: 16px; height: 16px; background: url(../images/sub_film_arrow.png) no-repeat 50% 50% / cover;} 
 
-.btn_right{ width: clamp(140px, 14vw, 200px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; border-radius: 26px; color: #fff; border: 1px solid #fff;
+.btn_right{ width: clamp(140px, 14vw, 200px); height: clamp(40px, 4vw, 52px);  border-radius: 26px; color: #fff; border: 1px solid #fff;
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; transition: all 0.3s ease;}
 
 .btn_right:hover { background-color: #000; opacity: 50%;}
@@ -104,7 +104,7 @@
 .sub_info_text  .contents_article_small_medium { line-height: 165%;}
 
 .sub_info_text { display: flex; flex-wrap: wrap; flex-direction: column; gap: 24px ; max-width: 800px;}
-.sub_info_btn { width: clamp(140px, 14vw, 178px); height: clamp(40px, 4vw, 52px); padding: 16px 30px; background: #f37b3c;
+.sub_info_btn { width: clamp(140px, 14vw, 178px); height: clamp(40px, 4vw, 52px); background: #f37b3c;
 border-radius: 26px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
 
 .footer { width: 100%; padding: clamp(80px, 10vw, 190px) clamp(20px, 5vw, 48px) 0 clamp(20px, 5vw, 48px); display: flex; flex-wrap: wrap; 
